@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto é um programa em Java que simula um sistema de descontos de uma loja de brinquedos durante uma promoção de Natal. O sistema oferece dois tipos de descontos:
+Este projeto é uma API Restful em Java que simula um sistema de descontos de uma loja de brinquedos. O sistema oferece dois tipos de descontos:
 1. **Desconto por Quantidade**: Se o cliente comprar 3 ou mais brinquedos do mesmo tipo, ele ganha 10% de desconto em cada um desses brinquedos.
 2. **Desconto por Valor Total**: Se o valor total da compra for maior que R$ 1.000,00, o cliente ganha 5% de desconto em toda a compra.
 
@@ -19,14 +19,21 @@ O programa lê a quantidade e o preço unitário de cada tipo de brinquedo, calc
 
 ## Tecnologias Utilizadas
 
-- Linguagem de Programação: Java
+- Linguagem: Java 17
+- Maven
 - Framework: Spring boot 3
+- Springdoc Swagger
+- SOLID
 
 ## Instruções de Uso
 
 1. Clone o repositório ou faça o download do código-fonte.
 2. Execute o programa.
-3. Insira as quantidades e os preços unitários dos brinquedos conforme solicitado.
-4. Veja os resultados dos cálculos, incluindo os descontos aplicados e o valor total da compra com desconto.
+3. Cadastre os brinquedos
+4. Registre o usuário
+5. Adicione itens no carrinho
+6. Finalize a compra
+7. Veja os resultados dos cálculos, incluindo os descontos aplicados e o valor total da compra com desconto.
 
- 
+ ## Para acessar no browser
+ * http://localhost:8080/swagger-ui.html

@@ -1,4 +1,4 @@
-package loja_brinquedo.controller;
+package loja_brinquedo.infra.controller;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;

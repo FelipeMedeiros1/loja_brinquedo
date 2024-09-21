@@ -1,4 +1,4 @@
-package loja_brinquedo.controller;
+package loja_brinquedo.infra.controller;
 
 import loja_brinquedo.loja.carrinho.CarrinhoDeCompra;
 import loja_brinquedo.loja.carrinho.ItemCarrinho;

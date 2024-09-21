@@ -1,4 +1,4 @@
-package loja_brinquedo.controller;
+package loja_brinquedo.infra.controller;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.transaction.Transactional;

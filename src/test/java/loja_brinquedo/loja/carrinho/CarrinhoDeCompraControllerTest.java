@@ -2,7 +2,7 @@ package loja_brinquedo.loja.carrinho;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import loja_brinquedo.controller.CarrinhoDeCompraController;
+import loja_brinquedo.infra.controller.CarrinhoDeCompraController;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
